@@ -1,5 +1,6 @@
 ---
 title: 关于
+slug: "adout"
 description: 
 date: '2019-02-28'
 aliases:
