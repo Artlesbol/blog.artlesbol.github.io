@@ -54,8 +54,8 @@ params:
         customText: 多看 多学 多做
 
     dateFormat:
-        published: 2006.02.01 15:04 UTC+8
-        lastUpdated: 2006.02.01 15:04 UTC+8
+        published: 2006.02.27 15:04 UTC+8
+        lastUpdated: 2006.02.27 15:04 UTC+8
 
     sidebar:
         subtitle: fw
