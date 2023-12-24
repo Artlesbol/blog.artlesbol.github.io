@@ -8,7 +8,7 @@ categories:
 banner: 
 title: Hugo+Obsidian+Github Pages一站式博客创作
 date: 2023-12-23T03:38:07+08:00
-lastmod: 2023-12-24T01:21:05+08:00
+lastmod: 2023-12-24T01:29:43+08:00
 ---
 
 ## 发布方案总览
@@ -160,5 +160,20 @@ Linter是为了自动维护frontmatter而启用的插件，需要配置多个地
 获取文件名作为title
 ![](attachments/Pasted%20image%2020231224012320.png)
 #### Github Publisher
-
+Github Publisher是用于发布的插件
+##### 基础
+你需要生成一个Github token用于插件与GIthub的交互，生成方式可以点击插件上的链接
+![](attachments/Pasted%20image%2020231224161231.png)
+##### 上传路径
+首先配置文件的路径，这里的Root folder表示上传到仓库的目录，这里选择`Obsidian Path`即可，他会按照Obsidian的目录结构上传，由于Hugo不在乎目录结构，所以如此管理即可。
+![](attachments/Pasted%20image%2020231224161417.png)
+其次是附件上传，Hugo从static目录读取静态资源，为了保持路径一致，我在Obsidian中的图片全部保存在`attachments`目录下，然后附件自动上传目录设置为`static/attachments`即可。
+![](attachments/Pasted%20image%2020231224161746.png)
+![](attachments/Pasted%20image%2020231224161405.png)
 #### Commander
+配置到这里其实就已经可以使用了，`Ctrl + P`输入`Github Publisher`即可看到所有的指令。
+![](attachments/Pasted%20image%2020231224161901.png)
+这里常用的是发布单个文件，每次都要输一下很麻烦，所以我用Commander插件做了一个快捷按键，来到插件配置页，选着左侧边栏，添加命令即可。
+![](attachments/Pasted%20image%2020231224162050.png)
+## 总结
+到此所有的配置都做完了，仅仅勾选share就可以无压力的发布Obsidian的文档到Hugo。
