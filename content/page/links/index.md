@@ -8,7 +8,7 @@ links:
     image: https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png
   - title: bosswnx
     description: bro
-    website: blog.bosswnx.xyz
+    website: https://blog.bosswnx.xyz
     image: bosswnx.jpg
   
 menu:
