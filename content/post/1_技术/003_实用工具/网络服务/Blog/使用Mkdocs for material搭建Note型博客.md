@@ -6,7 +6,7 @@ categories:
 banner: 
 title: 使用Mkdocs for material搭建Note型博客
 date: 2023-10-07T10:46:06+08:00
-lastmod: 2024-02-26T10:57:23+08:00
+lastmod: 2024-10-28T07:19:13+08:00
 ---
 # 备料
 计划搭建一个使用个人域名的note型博客，托管在Github Page上，因此只需要准备
@@ -15,7 +15,7 @@ lastmod: 2024-02-26T10:57:23+08:00
 # 部署步骤
 ## 1. 创建新的Github仓库
 一个用于存放博客和自动部署的Github仓库，命名为`<username>.github.io`
-![[../../../../attachments/Pasted image 20231007114347.png|../../../../attachments/Pasted image 20231007114347.png]]
+![](attachments/Pasted%20image%2020231007114347.png)
 ## 2. 本地安装mkdocs for material
 使用pip包管理器安装mkdocs-material，如果没有安装python则需要先安装python
 ```shell
@@ -37,7 +37,7 @@ mkdocs serve
 ## 3. 配置github actions工作流
 在刚才的仓库中，新建文件`.github/workflows/ci.yml`，内容为mkdocs material官网提供的[CI配置](https://squidfunk.github.io/mkdocs-material/publishing-your-site/#with-github-actions)，抄上去之后commit并push
 来到github仓库页面，Action处发现ci已经在执行了
-![[../../../../attachments/Pasted image 20231007115359.png|../../../../attachments/Pasted image 20231007115359.png]]
+![](attachments/Pasted%20image%2020231007115359.png)
 ci执行结束后可以看到code中出现了新的分支`gh-pages`，这就是生成好的页面，可以进行发布
 ![[../../../../attachments/Pasted image 20231007143950.png|../../../../attachments/Pasted image 20231007143950.png]]
 ## 4. 配置github pages和DNS解析
