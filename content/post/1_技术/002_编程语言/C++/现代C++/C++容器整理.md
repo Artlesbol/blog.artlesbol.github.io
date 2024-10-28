@@ -2,11 +2,11 @@
 share: true
 tags: 
 categories:
-  - Unclassified
+  - 编程语言
 banner: 
 title: C++容器整理
 date: 2024-10-28T07:07:28+08:00
-lastmod: 2024-10-28T08:13:01+08:00
+lastmod: 2024-10-28T08:39:44+08:00
 ---
 之前编程都没怎么用容器，还是C风格的写法。正好最近在学习[现代 C++ 教程: 高速上手 C++ 11/14/17/20](https://changkun.de/modern-cpp/zh-cn/00-preface/)里面介绍了很多内容，今天总结一下关于现代Cpp的容器使用，就截止到C++20吧，更新的版本中的特性就不写了。
 ## 1. 序列容器（Sequence containers）
