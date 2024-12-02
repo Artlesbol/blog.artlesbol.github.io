@@ -225,3 +225,17 @@ markup:
         lineNos: true
         lineNumbersInTable: true
         tabWidth: 4
+    extensions:
+      passthrough:
+        delimiters:
+          block:
+          - - \[
+            - \]
+          - - $$
+            - $$
+          inline:
+          - - \(
+            - \)
+          - - $
+            - $
+        enable: true
