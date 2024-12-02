@@ -226,16 +226,16 @@ markup:
         lineNumbersInTable: true
         tabWidth: 4
     extensions:
-      passthrough:
-        delimiters:
-          block:
-          - - \[
-            - \]
-          - - $$
-            - $$
-          inline:
-          - - \(
-            - \)
-          - - $
-            - $
-        enable: true
+        passthrough:
+            delimiters:
+            block:
+            - - \[
+                - \]
+            - - $$
+                - $$
+            inline:
+            - - \(
+                - \)
+            - - $
+                - $
+            enable: true
