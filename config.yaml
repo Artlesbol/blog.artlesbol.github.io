@@ -230,12 +230,12 @@ markup:
             delimiters:
             block:
             - - \[
-                - \]
+            - \]
             - - $$
-                - $$
+            - $$
             inline:
             - - \(
-                - \)
+            - \)
             - - $
-                - $
+            - $
             enable: true
