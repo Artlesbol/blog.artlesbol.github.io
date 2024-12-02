@@ -45,9 +45,9 @@ params:
         - post
     featuredImageField: banner
     rssFullContent: true
-    
+
     # e.g.: favicon placed in `static/favicon.ico` of your site folder, then set this field to `/favicon.ico` (`/` is necessary)
-    favicon:  site/logo.png
+    favicon: site/logo.png
 
     footer:
         since: 2023
@@ -229,13 +229,13 @@ markup:
         passthrough:
             delimiters:
             block:
-            - - \[
-            - \]
-            - - $$
-            - $$
+                - - \[
+                  - \]
+                - - $$
+                  - $$
             inline:
-            - - \(
-            - \)
-            - - $
-            - $
+                - - \(
+                  - \)
+                - - $
+                  - $
             enable: true
