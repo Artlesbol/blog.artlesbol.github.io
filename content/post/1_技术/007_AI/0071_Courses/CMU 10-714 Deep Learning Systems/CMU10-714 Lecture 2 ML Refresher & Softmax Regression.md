@@ -16,12 +16,14 @@ lastmod: 2024-12-02T05:24:56+08:00
 ## 2 softmax regression （softmax回归）
 ### 2.1 算法设置
 记号说明：$x^{i} \in \Re^{n}$是实数域内的n维向量
-$$x^{(i)} = \begin{bmatrix}
+$$
+x^{(i)} = \begin{bmatrix}
 x^{(i)}_1 \\
 x^{(i)}_2 \\
 \cdots \\
 x^{(i)}_n
-\end{bmatrix}$$
+\end{bmatrix}
+$$
 
 数据说明
 + 训练数据：$x^{i} \in \Re^{n}, y^{(i)} \in \{1,\dots,k\}$ for $i = 1,\dots,m$
@@ -87,4 +89,4 @@ $$
 $$\nabla_h \ell_{ce}(h, y) = z - e_y$$
 其中，$e_{y}$表示规模为$y$的单位阵，$z = \text{normalize}(\exp(h))$
 
-随后需要求矩阵的导数，求导原理比较复杂，参考[矩阵求导原理](../../0072_理论/矩阵求导原理.md)
+随后需要求矩阵的导数，求导原理比较复杂，参考[矩阵求导原理](%E7%9F%A9%E9%98%B5%E6%B1%82%E5%AF%BC%E5%8E%9F%E7%90%86.md#)
