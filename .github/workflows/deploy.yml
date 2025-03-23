@@ -18,8 +18,11 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
+      
       - name: Checkout your repository using git
         uses: actions/checkout@v4
+        with:
+          submodules: true  # 拉取子模块
       - name: copy contents
         run: cp -r ./content ./Frosti-myblog/content
       - name: Install, build, and upload your site
