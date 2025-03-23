@@ -6,7 +6,7 @@ categories:
 banner: 
 title: Astro框架博客发布流程
 description: Astro框架博客发布流程
-date: 2025-03-23T08:29:13+08:00
+pubdate: 2025-03-23T08:29:13+08:00
 lastmod: 2025-03-23T08:56:52+08:00
 ---
 ## 1 前言
