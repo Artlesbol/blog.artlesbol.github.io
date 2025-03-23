@@ -24,7 +24,7 @@ jobs:
         with:
           submodules: true  # 拉取子模块
       - name: copy contents
-        run: cp -r ./content ./Frosti-myblog/src/content
+        run: cp -rf ./content/blog ./Frosti-myblog/src/content/blog
       - name: Install, build, and upload your site
         uses: withastro/action@v3
         with:
