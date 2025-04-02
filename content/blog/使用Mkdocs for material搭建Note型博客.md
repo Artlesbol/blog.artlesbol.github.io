@@ -2,12 +2,12 @@
 share: true
 tags: []
 categories:
-  - tech
-banner: 
-title: "使用Mkdocs for material搭建Note型博客"
-description: "如何搭建Note型博客"
-pubDate: 2023-10-07T10:46:06+08:00
-lastmod: 2024-10-28T07:19:13+08:00
+- tech
+banner: null
+title: "\u4F7F\u7528Mkdocs for material\u642D\u5EFANote\u578B\u535A\u5BA2"
+description: "\u5982\u4F55\u642D\u5EFANote\u578B\u535A\u5BA2"
+lastmod: 2024-10-28 07:19:13+08:00
+pubDate: 2023-10-07 10:46:06+08:00
 ---
 # 备料
 计划搭建一个使用个人域名的note型博客，托管在Github Page上，因此只需要准备
