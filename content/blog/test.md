@@ -1,12 +1,14 @@
 ---
-title: "中文测试，非严格语法测试，公式测试"
-description: "Here is a sample of some basic Markdown syntax that can be used when writing Markdown content in Astro."
-pubDate: "Jul 01 2024"
+title: "\u4E2D\u6587\u6D4B\u8BD5\uFF0C\u975E\u4E25\u683C\u8BED\u6CD5\u6D4B\u8BD5\uFF0C\
+  \u516C\u5F0F\u6D4B\u8BD5"
+description: Here is a sample of some basic Markdown syntax that can be used when
+  writing Markdown content in Astro.
+pubDate: Jul 01 2024
 image: /image/image3.png
 categories:
-  - tech
+- tech
 tags:
-  - Makrdown
+- Makrdown
 badge: Pin
 ---
 ## 1 ML Refresher

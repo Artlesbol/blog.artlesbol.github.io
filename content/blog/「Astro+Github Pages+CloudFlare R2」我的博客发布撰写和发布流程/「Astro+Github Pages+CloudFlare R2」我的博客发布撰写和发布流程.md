@@ -9,6 +9,11 @@ banner: null
 title: "Astro\u535A\u5BA2\u90E8\u7F72\u5230Github Pages"
 lastmod: 2025-03-27 07:52:34+08:00
 pubDate: 2025-03-23 08:45:23+08:00
+description: "\n## 1 \u603B\u4F53\u65B9\u6848\n\n\u8FD9\u6B21\u7684\u535A\u5BA2\u6D89\
+  \u53CA\u591A\u4E2A\u6D41\u7A0B\uFF0C\u4E3B\u8981\u5206\u4E3A\u5BFC\u51FA\u548C\u53D1\
+  \u5E03\u4E24\u4E2A\u9636\u6BB5\u3002\n\n- \u5BFC\u51FA\n  - \u5728 Obsidian \u7F16\
+  \u5199\u535A\u5BA2\u5185\u5BB9\uFF08\u5305\u542B\u56FE\u7247\uFF0C\u751F\u6210 obsidian\
+  \ \u7BA1\u7406\u7684 metadata \uFF09\n "
 ---
 
 ## 1 总体方案
